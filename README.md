@@ -1,76 +1,93 @@
-![Thumbnail](./thumb.png)
+# 📚 Livros
 
-# Organo
+Uma aplicação web moderna para explorar, pesquisar e visualizar livros de forma simples e intuitiva.
+O projeto foi desenvolvido com foco em responsividade, organização e experiência do usuário.
 
-O Organo é um aplicativo organizador de leituras que permite listar criar, editar, excluir e favoritar livros.
+🔗 Demo do projeto:
+https://victorlesg.github.io/Livros/
 
-## 🔨 Funcionalidades do projeto
+---
 
-`Listagem de livros`: Exibe uma lista de livros, separados por gênero literário, exibindo a imagem e demais informações.
+# 🚀 Funcionalidades
 
-`Cadastro de livros`: Permite adicionar novos livros ao sistema, enviando os dados para a API.
+- 🔎 Pesquisa de livros
+- 📖 Visualização de informações dos livros
+- 🎨 Interface moderna e responsiva
+- ⚡ Navegação rápida e dinâmica
+- 📱 Compatível com dispositivos móveis
 
-`Edição e exclusão de livros`: Possibilita modificar e remover livros da lista através de interações com a API.
+---
 
-`Favoritar livros`: Adiciona a funcionalidade de favoritar livros, permitindo destacar títulos preferidos.
+# 🛠️ Tecnologias Utilizadas
 
-## ✔️ Técnicas e tecnologias utilizadas
+- HTML5
+- CSS3
+- TypeScript
+- Angular
+- Bootstrap
+- Git
+- GitHub
+- GitHub Pages
 
-O desenvolvimento do projeto utilizou as seguintes técnicas e tecnologias:
+---
 
-`Angular`: Framework utilizado para construir a aplicação, na versão 19.
+# 📚 Aprendizados
 
-`CLI do Angular`: Ferramenta de linha de comando para agilizar a criação e organização do projeto.
+Durante o desenvolvimento deste projeto, foram praticados conceitos importantes como:
 
-`Componentização`: Estrutura modular e reutilizável que define a base da aplicação.
+- Estruturação de componentes no Angular
+- Organização de aplicações Front-End
+- Manipulação de eventos
+- Responsividade
+- Estilização moderna com CSS
+- Deploy com GitHub Pages
+- Versionamento utilizando Git e GitHub
 
-`Diretiva ngClass`: Aplicação de classes CSS dinamicamente para estilização condicional.
+---
 
-`Templates`: Utilização de Bindings (one-way), eventos e interpolação para criar interfaces dinâmicas e responsivas.
+# ⚙️ Como executar o projeto
 
-`Controle de Fluxo`: Uso de @if e @for para controlar a exibição e iteração de elementos na interface.
+## Clone o repositório
 
-`Inputs com Signals`: Comunicação eficiente entre componentes utilizando a API de Signals.
+```bash
+git clone https://github.com/victorlesg/Livros.git
+```
 
-`Injeção de dependências (DI)`: Utilização do sistema de DI do Angular para gerenciar serviços.
+## Entre na pasta do projeto
 
-`Serviços Angular`: Criação e configuração de serviços injetáveis para separação da lógica de comunicação com a API.
+```bash
+cd Livros
+```
 
-`HttpClient`: Consumo de APIs REST para listar, adicionar, editar e excluir livros.
+## Instale as dependências
 
-`Requisições HTTP`: Implementação das operações GET, POST, PUT, PATCH e DELETE para manipulação de dados.
-
-`Observables e RxJS`: Uso do padrão Observer para tratar dados assíncronos e resposta de requisições HTTP.
-
-`Tratamento de erros`: Implementação de interceptores para capturar erros de requisição e exibir mensagens amigáveis na interface.
-
-`Interceptor HTTP`: Configuração para modificar requisições e respostas e tratar erros globalmente.
-
-`JSON Server`: Simulação de um backend para armazenar e gerenciar os dados do projeto.
-
-## 📁 Link do Figma
-
-Você pode [acessar o figma do projeto aqui](https://www.figma.com/community/file/1473330944329863214).
-
-## 🛠️ Abrir e rodar o projeto
-
-Requisitos:
-Node.js (versão 18 ou superior).
-Angular 19 (caso não tenha, instale com npm install -g @angular/cli@19).
-JSON Server (versão 0.17.4)
-
-Após baixar o projeto, você precisa instalar as dependências utilizando o comando:
 ```bash
 npm install
 ```
-Iniciar o backend (JSON Server):
-```bash
-cd backend
-npm start
-```
 
-Depois, para executar o projeto em modo desenvolvimento:
+## Execute o projeto
+
 ```bash
 ng serve
 ```
-Então, acesse [http://localhost:4200/](url) no seu navegador.
+
+## Abra no navegador
+
+```bash
+http://localhost:4200
+```
+
+---
+
+# 🌐 Deploy
+
+Projeto publicado utilizando GitHub Pages.
+
+---
+
+# 👨‍💻 Autor
+
+Desenvolvido por Victor Batista 🚀
+
+GitHub:
+https://github.com/victorlesg
