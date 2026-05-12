@@ -1,8 +1,15 @@
 {
-  "rewrites": [
+  "version": 2,
+  "builds": [
     {
-      "src": "/{.*}",
-      "dest": "backend/package.json"
+      "src": "src/index.html",
+      "use": "@vercel/node"
+    }
+  ],
+  "route": [
+    {
+      "src": "/(.*)",
+      "dest": "src/index.html"
     }
   ]
 }
